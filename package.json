@@ -1,0 +1,37 @@
+{
+  "name": "express-boot",
+  "version": "0.0.1",
+  "description": "A simple Express middleware to start and stop the server.",
+  "main": "boot.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwatakeshi/express-boot.git"
+  },
+  "keywords": [
+    "start",
+    "stop",
+    "express",
+    "boot",
+    "test",
+    "socket.io"
+  ],
+  "author": "iwatakeshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwatakeshi/express-boot/issues"
+  },
+  "homepage": "https://github.com/iwatakeshi/express-boot",
+  "dependencies": {
+    "cout": "0.0.6",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "express": "^4.10.2",
+    "mocha": "^2.0.1",
+    "superagent": "^0.21.0"
+  }
+}

@@ -64,6 +64,10 @@ var io = require('socket.io')(boot().server);
 
 * *Returns the Express app*
 
+`boot.version`
+
+* *Returns boot's version*
+
 `boot.config(opt)`
 
 * *Configures boot*
@@ -73,6 +77,7 @@ var io = require('socket.io')(boot().server);
 //default
 {
   appName: 'Express app',
+  port: 3000,
   debug: true
 }
 ```
