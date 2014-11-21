@@ -4,6 +4,10 @@ express-boot
 A simple Express middleware to start and stop the server.
 
 [![Build Status](https://travis-ci.org/iwatakeshi/express-boot.svg)](https://travis-ci.org/iwatakeshi/express-boot)
+[![npm version](https://badge.fury.io/js/express-boot.svg)](http://badge.fury.io/js/express-boot)
+
+[![NPM](https://nodei.co/npm/express-boot.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-boot/)
+
 
 ##Install
 
@@ -14,14 +18,15 @@ sudo npm install --save express-boot
 ##Usage
 
 ```js
+
 var app = require('express')();
-var boot = require('express-boot')(app, process.env.PORT || 3000);
+var boot = require('express-boot');
 
 /*...*/
 
 //At the end, start the server
 if(require.main === module){
-    boot().start();
+    boot(app, process.env.PORT|| 3000).start();
 } else {
 //In case you want to use app in your tests.
   module.exports = app;
@@ -84,3 +89,14 @@ var io = require('socket.io')(boot().server);
 }
 ```
 
+##Changelog
+
+**Latest:**
+
+**0.0.1**
+
+* Initial Commit
+
+**0.0.2**
+
+* Updated readme

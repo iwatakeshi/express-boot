@@ -22,7 +22,7 @@
           port: 3000
         },
         _opt = _defaults,
-        _version = '0.0.1',
+        _version = '0.0.2',
         _ = require('lodash'),
         cout = require('cout'),
         hasModule = (typeof module !== 'undefined' && module.exports);
