@@ -1,0 +1,518 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ni",
+				"nikchanIO"
+			],
+			[
+				"ht",
+				"http"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "boot.js",
+			"settings":
+			{
+				"buffer_size": 2702,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Windows",
+				"name": "REPORTER = spec"
+			}
+		},
+		{
+			"file": "tests/api.js",
+			"settings":
+			{
+				"buffer_size": 1763,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CHANGELOG.md",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 793,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preiv",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"beat",
+				"Javascript Beautify"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"shel",
+				"Shell Command"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"be",
+				"Javascript Beautify"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"shell",
+				"Shell Command"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"she",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"shee",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdw",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"npm update",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot"
+	],
+	"file_history":
+	[
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot/.gitignore",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot/tests/.gitignore",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot/.travis.yml",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot/tests/boot.js",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/express-boot/README.md",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/config/socket.io/nikchan.io.js",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/package.json",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/README.md",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/public/stylesheets/style.css",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/views/login.jade",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/tests/index.js",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/README.html",
+		"/C/Users/Takeshi/AppData/Local/Temp/46.html",
+		"/C/Users/Takeshi/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/Takeshi/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/bower_components/semantic-ui/server/files/overrides/fonts/preview.html",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/node_modules/mocha/node_modules/glob/test/pause-resume.js",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/public/stylesheets/form.styl",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/public/stylesheets/form.css",
+		"/C/Users/Takeshi/Documents/Visual Studio 2013/Projects/nikchan/nikchan/README.md",
+		"/C/Users/Takeshi/AppData/Local/Temp/54.html",
+		"/C/Users/Takeshi/Downloads/9781430265955/practicalnode-master/ch4/jade-example.js",
+		"/C/Users/Takeshi/Downloads/9781430265955/practicalnode-master/ch5/blog-express/views/index.jade",
+		"/C/Users/Takeshi/Downloads/9781430265955/practicalnode-master/ch5/blog-express/views/layout.jade",
+		"/C/Users/Takeshi/Downloads/9781430265955/practicalnode-master/ch4/consolidate/views/platforms.html",
+		"/C/Users/Takeshi/Downloads/9781430265955/practicalnode-master/ch4/consolidate/views/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"debug",
+			"confi",
+			"config",
+			"console",
+			"socketIO",
+			"io",
+			"library"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nikchanIO",
+			"socketIO",
+			"io"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "boot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2230,
+								2230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"auto_name": "REPORTER = spec",
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/api.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								809,
+								809
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "CHANGELOG.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": -0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "express-boot.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
