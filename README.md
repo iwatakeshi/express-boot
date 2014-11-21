@@ -3,6 +3,8 @@ express-boot
 
 A simple Express middleware to start and stop the server.
 
+[![Build Status](https://travis-ci.org/iwatakeshi/express-boot.svg)](https://travis-ci.org/iwatakeshi/express-boot)
+
 ##Install
 
 ```bash
