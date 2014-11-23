@@ -11,5 +11,5 @@ Changelog
 
 **0.0.3**
 
-* Port now defaults to `port.env.PORT || 3000`.
+* Port now defaults to `process.env.PORT || 3000`.
 * Updated readme
