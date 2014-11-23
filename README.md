@@ -26,7 +26,7 @@ var boot = require('express-boot');
 
 //At the end, start the server
 if(require.main === module){
-    boot(app, process.env.PORT|| 3000).start();
+    boot(app).start();
 } else {
 //In case you want to use app in your tests.
   module.exports = app;
@@ -45,7 +45,7 @@ npm start
 
 ```js
 var app = require('express')();
-var boot = require('express-boot')(app, process.env.PORT || 3000);
+var boot = require('express-boot')(app);
 var io = require('socket.io')(boot().server);
 ```
 
@@ -53,7 +53,7 @@ var io = require('socket.io')(boot().server);
 
 `boot(app, port)`
 
-* *Accepts the Express app and port number*
+* *Accepts the Express app and/or port number*
 
 `boot().start()`
 
@@ -84,9 +84,15 @@ var io = require('socket.io')(boot().server);
 //default
 {
   appName: 'Express app',
-  port: 3000,
+  port: process.env.PORT || 3000,
   debug: true
 }
+```
+
+##Test
+
+```bash
+npm test
 ```
 
 ##Changelog
@@ -99,4 +105,9 @@ var io = require('socket.io')(boot().server);
 
 **0.0.2**
 
+* Updated readme
+
+**0.0.3**
+
+* Port now defaults to `port.env.PORT || 3000`.
 * Updated readme

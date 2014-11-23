@@ -17,12 +17,12 @@
         _port,
         _opt,
         _defaults = {
-          appName: 'Express app',
-          debug: true,
-          port: 3000
+            appName: 'Express app',
+            debug: true,
+            port: process.env.PORT || 3000
         },
         _opt = _defaults,
-        _version = '0.0.2',
+        _version = '0.0.3',
         _ = require('lodash'),
         cout = require('cout'),
         hasModule = (typeof module !== 'undefined' && module.exports);
@@ -61,7 +61,7 @@
         Boot.close = function() {
             _server.close();
         };
-        
+
         if (_port) {
             Boot.port = _port;
         }
@@ -83,8 +83,8 @@
      * Configures boot
      * @param  {Object} opt
      */
-    boot.config = function (opt) {
-      _opt = _.assign(_.extend(_defaults, opt));
+    boot.config = function(opt) {
+        _opt = _.assign(_.extend(_defaults, opt));
     }
 
     /*************************************
