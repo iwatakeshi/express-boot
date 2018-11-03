@@ -6,7 +6,7 @@ A simple Express middleware to start and stop the server.
 [![Build Status](https://travis-ci.org/iwatakeshi/express-boot.svg)](https://travis-ci.org/iwatakeshi/express-boot)
 [![npm version](https://badge.fury.io/js/express-boot.svg)](http://badge.fury.io/js/express-boot)
 
-[![NPM](https://nodei.co/npm/express-boot.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-boot/)
+[![NPM](https://nodei.co/npm/express-boot.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-boot/) [![Greenkeeper badge](https://badges.greenkeeper.io/iwatakeshi/express-boot.svg)](https://greenkeeper.io/)
 
 
 ##Install
